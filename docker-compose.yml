@@ -1,0 +1,11 @@
+services:
+  whisper:
+    build:
+    container_name: whisper-transcriber
+    ports:
+      -  8000:8000
+    volumes:
+      - ./uploads:/app/uploads
+    environment:
+      - PYTHONBUFFERED=1
+    command: ["uvicorn","transcriber:app","--host","0.0.0.0","--port","8000"]
