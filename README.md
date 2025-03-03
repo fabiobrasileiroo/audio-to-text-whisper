@@ -24,6 +24,12 @@ Após instalar o Docker, basta rodar:
 
 ``` bash 
 docker-compose up --build
-```  
+```
+### Exemplo de uso no postman, mas podemos usar com curl também:
+![%Y-%m%d_](https://github.com/user-attachments/assets/55b465c9-45d7-41b2-b4ce-b4a9637cebf3)
+
+
 
 O serviço estará rodando e pronto para receber áudios para transcrição!
+
+
