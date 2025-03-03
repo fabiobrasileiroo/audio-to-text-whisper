@@ -25,11 +25,17 @@ Após instalar o Docker, basta rodar:
 ``` bash 
 docker-compose up --build
 ```
-### Exemplo de uso no postman, mas podemos usar com curl também:
-![%Y-%m%d_](https://github.com/user-attachments/assets/0b676cc0-b64b-4f9c-b249-da70e503f529)
-
 
 
 O serviço estará rodando e pronto para receber áudios para transcrição!
+
+### Exemplo de uso no postman, mas podemos usar com curl também:
+![%Y-%m%d_](https://github.com/user-attachments/assets/0b676cc0-b64b-4f9c-b249-da70e503f529)
+
+``` bash
+curl -X POST http://localhost:8000/transcribe \
+  -H "Content-Type: multipart/form-data" \
+  -F "file=@nomeDoArquivo.mp4"
+```
 
 
