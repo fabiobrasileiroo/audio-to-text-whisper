@@ -26,7 +26,7 @@ Após instalar o Docker, basta rodar:
 docker-compose up --build
 ```
 ### Exemplo de uso no postman, mas podemos usar com curl também:
-![%Y-%m%d_](https://github.com/user-attachments/assets/55b465c9-45d7-41b2-b4ce-b4a9637cebf3)
+![%Y-%m%d_](https://github.com/user-attachments/assets/0b676cc0-b64b-4f9c-b249-da70e503f529)
 
 
 
